@@ -24,8 +24,11 @@ Details of script processing:
 1. merge the data from `/test` and `/train`
 
     a. read 3 test files and 3 training files
+    
     b. produce 6 data frames containing the subjects, activities, and measurements for each group
+    
     c. use rbind to append test to training without re-ordering
+    
     d. produce 3 data frames containing all subjects, all activities, and all measurements
 
 2. extract the measurements for mean and standard deviation
