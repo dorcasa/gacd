@@ -24,7 +24,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
         WALKING_UPSTAIRS
 
 ###columns 3 to 68
-    measurements
+    measurement averages for the subject and activity in columns 1 and 2
         all numeric values
     
     guide to all 66 measurement names
