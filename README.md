@@ -1,7 +1,8 @@
 gacd
 ====
 
-Course Project for Coursera course on Getting and Cleaning Data from the Data Science Specialization offered by Johns Hopkins
+###Course Project for Coursera course on Getting and Cleaning Data
+###from the Data Science Specialization offered by Johns Hopkins
 
 The 'run_analysis.R' script in this repo creates a tidy data set from Samsung test and training data described here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
