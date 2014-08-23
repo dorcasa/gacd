@@ -20,15 +20,13 @@ Tidy Data Set Labels and Values
     measurements
         all numeric values
     
-    guide to prefixes and suffixes
-    
-        t = time domain signal
-        f = frequency domain signal (Fast Fourier Transform applied to some signals)
-        mean = mean of measurements of this signal
-        std = standard deviation of measurements of this signal
-        X, Y, or Z = axis of measurement (not relevant for all signals)
-    
     guide to all 66 measurement names
+    
+    mean = mean of measurements of this signal
+    std = standard deviation of measurements of this signal
+    X, Y, or Z = axis of measurement (not relevant for all signals)
+
+    * the prefix "t" = time domain signals
     
         BodyAcc = body component of acceleration signal
             tBodyAcc_mean_X
@@ -83,9 +81,15 @@ Tidy Data Set Labels and Values
             tBodyAccJerkMag_std
             
         BodyGyroMag
-        
+            tBodyGyroMag_mean
+            tBodyGyroMag_std
+            
         BodyGyroJerkMag
-        
+            tBodyGyroJerkMag_mean
+            tBodyGyroJerkMag_std
+            
+    * the prefix "f" = frequency domain signal (Fast Fourier Transform applied to some signals)
+
         BodyAcc = body component of acceleration signal
             fBodyAcc_mean_X
             fBodyAcc_mean_Y
