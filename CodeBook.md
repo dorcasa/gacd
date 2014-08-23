@@ -1,6 +1,9 @@
 Tidy Data Set Labels and Values
 ====
 
+See additional description of experiment data here:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 ###column 1
     subject
         ID number of person (subject) whose activity was measured
