@@ -1,6 +1,10 @@
 Tidy Data Set Labels and Values
 ====
 
+Thirty volunteers (subjects) performed six activities, which were measured using Samsung smartphones. The tidy data set focuses only on the 66 measurements where mean or standard deviation was calculated.
+
+The tidy data set further summarizes the data by reporting the average (mean) of these 66 measurements for all 180 combinations of subject and activity (30 x 6 = 180).
+
 See additional description of experiment data here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
