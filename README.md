@@ -14,7 +14,7 @@ The script accomplishes all five requirements of the course project:
 1. merge the data from `/test` and `/train`
 2. extract the measurements for mean and standard deviation
 3. use descriptive activity names, i.e. SITTING, STANDING, WALKING, etc.
-4. use descriptive variable names for measurements, i.e. tBodyAcc_mean_Y
+4. use descriptive variable names for measurements, i.e. tBodyAcc_mean_X
 5. create a tidy data set with the average of each measurement for every combo of subject+activity
 
 <!-- -->
