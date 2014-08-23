@@ -38,13 +38,6 @@ Tidy Data Set Labels and Values
             tBodyAcc_std_Y
             tBodyAcc_std_Z
 
-            fBodyAcc_mean_X
-            fBodyAcc_mean_Y
-            fBodyAcc_mean_Z
-            fBodyAcc_std_X
-            fBodyAcc_std_Y
-            fBodyAcc_std_Z
-
         GravityAcc = gravity component of acceleration signal
             tGravityAcc_mean_X
             tGravityAcc_mean_Y
@@ -61,13 +54,6 @@ Tidy Data Set Labels and Values
             tBodyAccJerk_std_Y
             tBodyAccJerk_std_Z
 
-            fBodyAccJerk_mean_X
-            fBodyAccJerk_mean_Y
-            fBodyAccJerk_mean_Z
-            fBodyAccJerk_std_X
-            fBodyAccJerk_std_Y
-            fBodyAccJerk_std_Z
-
         BodyGyro = body component of gyroscope signal
             tBodyGyro_mean_X
             tBodyGyro_mean_Y
@@ -75,13 +61,6 @@ Tidy Data Set Labels and Values
             tBodyGyro_std_X
             tBodyGyro_std_Y
             tBodyGyro_std_Z
-
-            fBodyGyro_mean_X
-            fBodyGyro_mean_Y
-            fBodyGyro_mean_Z
-            fBodyGyro_std_X
-            fBodyGyro_std_Y
-            fBodyGyro_std_Z
 
         BodyGyroJerk = jerk signal related to body component of gyroscope signal
             tBodyGyroJerk_mean_X
@@ -107,5 +86,26 @@ Tidy Data Set Labels and Values
         
         BodyGyroJerkMag
         
-        BodyAcc
-            
+        BodyAcc = body component of acceleration signal
+            fBodyAcc_mean_X
+            fBodyAcc_mean_Y
+            fBodyAcc_mean_Z
+            fBodyAcc_std_X
+            fBodyAcc_std_Y
+            fBodyAcc_std_Z
+
+        BodyAccJerk = jerk signal related to body component of acceleration signal
+            fBodyAccJerk_mean_X
+            fBodyAccJerk_mean_Y
+            fBodyAccJerk_mean_Z
+            fBodyAccJerk_std_X
+            fBodyAccJerk_std_Y
+            fBodyAccJerk_std_Z
+
+        BodyGyro = body component of gyroscope signal
+            fBodyGyro_mean_X
+            fBodyGyro_mean_Y
+            fBodyGyro_mean_Z
+            fBodyGyro_std_X
+            fBodyGyro_std_Y
+            fBodyGyro_std_Z
