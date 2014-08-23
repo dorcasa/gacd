@@ -9,13 +9,14 @@ See additional description of experiment data here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ###column 1
-    subject
+    label: subject
         ID number of person (subject) whose activity was measured
-        Integer from 1 to 30
+        values: Integer from 1 to 30
     
 ###column 2
-    activity
+    label: activity
         Descriptive name of activity, one of the following
+        values:
         LAYING
         SITTING
         STANDING
@@ -24,8 +25,9 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
         WALKING_UPSTAIRS
 
 ###columns 3 to 68
-    measurement averages for the subject and activity in columns 1 and 2
-        all numeric values
+    labels: 66 different measurement names
+        values: numeric (Hz)
+        average of this measurement for the subject and activity in columns 1 and 2
     
     guide to all 66 measurement names
     
