@@ -26,7 +26,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ###columns 3 to 68
     labels: 66 different measurement names
-        values: numeric (Hz)
+        values: numeric
         average of this measurement for the subject and activity in columns 1 and 2
     
     guide to all 66 measurement names
