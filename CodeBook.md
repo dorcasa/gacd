@@ -22,11 +22,11 @@ Tidy Data Set Labels and Values
     
     guide to all 66 measurement names
     
-    mean = mean of measurements of this signal
-    std = standard deviation of measurements of this signal
-    X, Y, or Z = axis of measurement (not relevant for all signals)
+    * mean = mean of measurements of this signal
+    * std = standard deviation of measurements of this signal
+    * X, Y, or Z = axis of measurement (not relevant for all signals)
 
-    * the prefix "t" = time domain signals
+    The prefix "t" = time domain signals in the following measurement names
     
         BodyAcc = body component of acceleration signal
             tBodyAcc_mean_X
@@ -80,15 +80,16 @@ Tidy Data Set Labels and Values
             tBodyAccJerkMag_mean
             tBodyAccJerkMag_std
             
-        BodyGyroMag
+        BodyGyroMag = magnitude of body component of gyroscope signal
             tBodyGyroMag_mean
             tBodyGyroMag_std
             
-        BodyGyroJerkMag
+        BodyGyroJerkMag = magnitude of jerk signal related to body component of gyroscope signal
             tBodyGyroJerkMag_mean
             tBodyGyroJerkMag_std
             
-    * the prefix "f" = frequency domain signal (Fast Fourier Transform applied to some signals)
+    The prefix "f" = frequency domain signal in the following measurement names
+        (Fast Fourier Transform applied to these signals)
 
         BodyAcc = body component of acceleration signal
             fBodyAcc_mean_X
@@ -113,3 +114,19 @@ Tidy Data Set Labels and Values
             fBodyGyro_std_X
             fBodyGyro_std_Y
             fBodyGyro_std_Z
+        
+        BodyAccMag = magnitude of body component of acceleration signal
+            fBodyAccMag_mean
+            fBodyAccMag_std
+            
+        BodyAccJerkMag = magnitude of jerk signal related to body component of acceleration signal
+            fBodyAccJerkMag_mean
+            fBodyAccJerkMag_std
+            
+        BodyGyroMag = magnitude of body component of gyroscope signal
+            fBodyGyroMag_mean
+            fBodyGyroMag_std
+            
+        BodyGyroJerkMag = magnitude of jerk signal related to body component of gyroscope signal
+            fBodyGyroJerkMag_mean
+            fBodyGyroJerkMag_std
