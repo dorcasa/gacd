@@ -10,9 +10,11 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 The script assumes that it resides inside the folder UCI HAR Dataset, i.e. it resides at the same level as the /test and /train folders.
 
 The script accomplishes all five requirements of the course project:
+
 1. merge the data from /test and /train
 2. extract the measurements for mean and standard deviation
 3. use descriptive activity names, i.e. SITTING, STANDING, WALKING, etc.
 4. use descriptive variable names, i.e. tBodyAcc.mean.Y
 5. create a tidy data set with the average of each measurement for each combo of subject+activity
 
+<!-- -->
