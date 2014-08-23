@@ -23,19 +23,35 @@ Details of script processing:
 
 1. merge the data from `/test` and `/train`
 
-    a. read 3 test files and 3 training files
+    a. read 3 test files each with 2947 rows and 3 training files each with 7352 rows
     
     b. produce 6 data frames containing the subjects, activities, and measurements for each group
     
-    c. use rbind to append test to training without re-ordering
+    c. use rbind to append test to training without re-ordering, creating 3 sets each with 10299 rows
     
     d. produce 3 data frames containing all subjects, all activities, and all measurements
+    
+    e. add column names to all 3 data frames
+    
+    f. column names of the measurements come from reading all 561 rows in the second column of features.txt
+    
+    g. result is subjects (10299 x 1), activities (10299 x 1), measurements (10299 x 561)
 
 2. extract the measurements for mean and standard deviation
 
+    a. use grep to subset the measurements data frame
+    
+    b. grep expression includes column names with mean() or std()
+    
+    c. grep expression excludes meanFreq() with mean[^F] = mean not followed by F
+    
+    d. grep finds 66 measurements matching mean() and std()
+    
+    e. result is new data frame with mean and std measurements (10299 x 66)
 
 3. use descriptive activity names, i.e. SITTING, STANDING, WALKING, etc.
 
+    a. 
 
 4. use descriptive variable names for measurements, i.e. tBodyAcc_mean_X
 
