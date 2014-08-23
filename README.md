@@ -47,15 +47,42 @@ Details of script processing:
     
     d. grep finds 66 measurements matching mean() and std()
     
-    e. result is new data frame with mean and std measurements (10299 x 66)
+    e. result is new data frame with only the mean and std measurements (10299 x 66)
 
 3. use descriptive activity names, i.e. SITTING, STANDING, WALKING, etc.
 
-    a. 
+    a. use gsub to replace integer activity ID # with descriptive name
+    
+    b. repeat for a total of 6 times to cover all 6 activities
+    
+    c. result is revised activities data frame (10299 x 1)
 
 4. use descriptive variable names for measurements, i.e. tBodyAcc_mean_X
 
+    a. the variable names are already descriptive, but we can improve clarity and validity in R
+    
+    b. fix the typo "BodyBody" from features.txt by replacing with "Body" as in features_info.txt
+    
+    c. replace hyphens ("-") with underscores ("_")
+    
+    d. remove parentheses
+    
+    e. result is revised measurements data frame (10299 x 66)
 
 5. create a tidy data set with the average of each measurement for every combo of subject+activity
+
+    a. now the script puts all 3 data frames together - subjects, activities, measurements
+    
+    b. result is one data frame (10299 x 68) with subject in column 1 and activity in column 2
+    
+    c. using reshape2, melt the data creating a separate row for each measurement (10299 x 66 = 679734)
+    
+    d. result is 679734 rows each containing subject, activity, variable name, and measurement
+    
+    e. then cast the data to find the average (mean) of each measurement for every combo of subject+activity (30 x 6)
+    
+    f. write the result into a table (180 x 66) with filename "tidydata.txt"
+    
+    
 
 
